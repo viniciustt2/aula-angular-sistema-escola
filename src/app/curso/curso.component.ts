@@ -18,10 +18,10 @@ export class CursoComponent implements OnInit {
   constructor(
     private cursoServico: CursoService,
     private router: Router
-     ) { }
+  ) { }
 
   ngOnInit(): void {
-    this.pesquisar();
+     this.pesquisar();
   }
 
   pesquisar() {
@@ -36,7 +36,7 @@ export class CursoComponent implements OnInit {
 
   }
 
-  incluir(){
+  incluir() {
     this.router.navigate(['/curso/incluir']);
   }
 
